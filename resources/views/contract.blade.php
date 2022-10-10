@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{ url('') }}/assets/css/main.css" />
     <link rel="stylesheet" href="{{ url('') }}/assets/css/style.css" />
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-Variable-font-face.css" rel="stylesheet" type="text/css" />
+    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous"> --}}
   </head>
   <body>
     <style>
@@ -106,8 +107,16 @@
     </header>
 
     <!-- ========================= about-section start ========================= -->
-    <section id="about" class="about-section pt-150">
+    <section id="about" class="about-section pt-100">
         <div class="container">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item px-0"><a href="#">خانه</a></li>
+                  <li class="breadcrumb-item px-0"><a href="#">قرارداد ها</a></li>
+                  <li class="breadcrumb-item px-0"><a href="#">قرارداد های مشاوره</a></li>
+                  <li class="breadcrumb-item px-0 active" aria-current="page">قرارداد همکاری در فروش</li>
+                </ol>
+              </nav>
             <div class="row">
                 <div class="col-lg-8">
                     <div class="about-content mb-50">
@@ -171,7 +180,8 @@
                                     <li>برترین محصول سال</li>
                                 </ul>
                                 <div class="pricing-btn text-center">
-                                    <a href="javascript:void(0)" class="main-btn btn-hover">خرید</a>
+                                    <a onclick='this.style.display = "none"; document.querySelector("#dl").classList.remove("d-none");' class="main-btn btn-hover">خرید</a>
+                                    <a id="dl" class="main-btn btn-success btn-hover d-none">دانلود</a>
                                 </div>
                             </div>
                         </div>

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="{{ url('') }}/assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="{{ url('') }}/assets/css/animate.css" />
     <link rel="stylesheet" href="{{ url('') }}/assets/css/main.css" />
+    <link rel="stylesheet" href="{{ url('') }}/assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-Variable-font-face.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -216,8 +218,8 @@
 				<div class="row justify-content-center">
 					<div class="col-xxl-5 col-xl-6 col-lg-7 col-md-10">
 						<div class="section-title text-center mb-50">
-							<h1>Our services</h1>
-							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore.</p>
+							<h1>قرارداد ها</h1>
+							<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
 						</div>
 					</div>
 				</div>
@@ -229,7 +231,7 @@
 								<i class="lni lni-layers"></i>
 							</div>
 							<div class="content">
-								<h3>UI/UX design</h3>
+								<h3>قرارداد های پیمانکاری</h3>
 								<p>Lorem ipsum dolor sitsdw consetsad pscing eliewtr, diam nonumy.</p>
 							</div>
 						</div>
@@ -240,7 +242,7 @@
 								<i class="lni lni-code-alt"></i>
 							</div>
 							<div class="content">
-								<h3>Web design</h3>
+								<h3>قرارداد های مشاوره</h3>
 								<p>Lorem ipsum dolor sitsdw consetsad pscing eliewtr, diam nonumy.</p>
 							</div>
 						</div>
@@ -251,7 +253,7 @@
 								<i class="lni lni-pallet"></i>
 							</div>
 							<div class="content">
-								<h3>Graphics design</h3>
+								<h3>قرارداد های محرمانگی</h3>
 								<p>Lorem ipsum dolor sitsdw consetsad pscing eliewtr, diam nonumy.</p>
 							</div>
 						</div>
@@ -262,7 +264,7 @@
 								<i class="lni lni-vector"></i>
 							</div>
 							<div class="content">
-								<h3>Brand design</h3>
+								<h3>قرارداد های فو</h3>
 								<p>Lorem ipsum dolor sitsdw consetsad pscing eliewtr, diam nonumy.</p>
 							</div>
 						</div>
@@ -270,7 +272,7 @@
 				</div>
 
 				<div class="view-all-btn text-center pt-30">
-					<a href="javascript:void(0)" class="main-btn btn-hover">View All Services</a>
+					<a href="javascript:void(0)" class="main-btn btn-hover">همه قرارداد ها</a>
 				</div>
 
 			</div>
