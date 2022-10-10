@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::view('bliss', 'bliss');
 Route::view('contract', 'contract');
+Route::view('contracts', 'contracts');
